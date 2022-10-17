@@ -4,10 +4,10 @@
 10/17
 
 ### Project Title
-Udacity BikeShare Casey
+Udacity BikeShare Casey M
 
 ### Description
-Utilized R Software to Analyze three trends in Bikeshare data
+Utilized R Software to Analyze three trends in Bikeshare data- check out the results in Explore_bikeshare_data.r
 
 ### Files used
 Explore_bikeshare_data.r
