@@ -10,7 +10,7 @@ head(wash)
 
 head(chi)
 
-# Importing library
+# Importing library for visualization
 library(ggplot2)
 library(lubridate)
 
@@ -44,7 +44,7 @@ ggplot(aes(x=Birth.Year, fill=City), data= city) +
 
 summary(city$Birth.Year)
 
-# Visualizing data with ggplot
+# Visualizing data with ggplot for visualization
 ggplot(aes(x = Gender, fill = City), data = city) +
     geom_bar( position = position_dodge2(width = 0.5, preserve = "single", padding = -0.5), colour="black") +
     ggtitle('Counts of each gender') +
